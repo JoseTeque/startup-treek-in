@@ -1,0 +1,15 @@
+h1{
+    @include titulo-texto;
+    @include conversor-relativo-font(font-size, rem, $xxxxx-large, $medium);
+}
+
+h2{
+    @include titulo-texto;
+    @include conversor-relativo-font(font-size, rem, $xxxx-large, $medium);
+}
+
+h3{
+    @include titulo-texto;
+    @include conversor-relativo-font(font-size, rem, $xxx-large, $medium);
+}
+

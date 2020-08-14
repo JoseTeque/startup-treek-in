@@ -1,0 +1,19 @@
+.btn{
+    background-color: $ballBlue;
+    border: none;
+    color: $white;
+}
+
+.navbar-btn-xs{
+    padding: 5px 10px;
+    @include conversor-relativo-font(font-size, rem, $large, $medium);
+
+    &:hover{
+        cursor: pointer;
+        background-color:$middleBlue;
+    }
+
+    &:focus{
+        background-color:$gray;
+    }
+}

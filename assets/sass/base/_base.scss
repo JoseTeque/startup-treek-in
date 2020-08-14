@@ -1,0 +1,5 @@
+body {
+    font-family: $openSans;
+    @include conversor-relativo-font(font-size, rem, $medium, $medium);
+    line-height: 1.8;
+}

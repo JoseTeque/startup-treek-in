@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-container{
+    display: none;
+}
+
+.navbar-container-icon i{
+    @include conversor-relativo-font(font-size, rem, $xxxxx-large, $medium);
+    color: $raisingBlack;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.navbar-nav a{
+    color: $nickel;
+    @include conversor-relativo-font(font-size, rem, $large, $medium);
+    margin-right: 20px;
+}
+
+.navbar-registro a{
+    color: $raisingBlack;
+    margin-right: 20px;
+    @include  titulo-texto;
+    @include conversor-relativo-font(font-size, rem, $large, $medium);
+}
+
+@media (min-width: 768px) {
+    .navbar-container-icon{
+        display:none;
+    }
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 20px;
+    }
+}

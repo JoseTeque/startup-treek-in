@@ -1,0 +1,16 @@
+@mixin conversor-relativo-font($property, $unit, $target, $context) {
+    $result: ($target / $context);
+
+    #{$property}: #{$result + $unit};
+}
+
+@mixin conversor-relativo-width($property, $unit, $target, $context){
+    $result: ($target / $context) * 100;
+
+    #{$property}: #{$result + $unit};
+}
+
+@mixin titulo-texto{
+    font-weight:$bold;
+    font-family: $raleway;
+}
