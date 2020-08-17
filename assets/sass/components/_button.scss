@@ -17,3 +17,17 @@
         background-color:$gray;
     }
 }
+
+.card-btn-lg{
+    padding: 10px 0;
+    width: 100%;
+
+    &:hover{
+        cursor: pointer;
+        background-color:$middleBlue;
+    }
+
+    &:focus{
+        background-color:$gray;
+    }
+}

@@ -1,0 +1,52 @@
+.main{
+    margin: 50px 0;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.precio{
+    background-image: url('../img/bg-price.svg');
+    background-repeat: no-repeat;
+}
+
+.precio h2{
+    color: $white;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.cad-container{
+    margin-top: 30px;
+     padding-bottom: 25px;
+}
+
+.card-contenido-end{ 
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .card-contenido-end{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+}
+
+// ANIMACION
+.bar-graph{
+    animation: opacidad 3s ease-in-out 0s infinite;
+    -webkit-animation: opacidad 3s ease-in-out 0s infinite;
+}
+
+
+
+
+

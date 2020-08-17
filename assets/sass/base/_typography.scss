@@ -1,15 +1,38 @@
 h1{
     @include titulo-texto;
     @include conversor-relativo-font(font-size, rem, $xxxxx-large, $medium);
+    padding: 0;
+    margin: 0;
 }
 
 h2{
     @include titulo-texto;
     @include conversor-relativo-font(font-size, rem, $xxxx-large, $medium);
+
 }
 
 h3{
     @include titulo-texto;
-    @include conversor-relativo-font(font-size, rem, $xxx-large, $medium);
+    @include conversor-relativo-font(font-size, rem, $xx-large, $medium);
+}
+
+h4{
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+}
+
+h6{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
 

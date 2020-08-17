@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+
+    .hero{
+        height: 600px;
+    }
+
+    .hero-container{
+        position: relative;
+    }
+    .hero-contenido{
+        position: absolute;
+        width: 35%;
+        left: 7%;
+        top: 60px;
+    }
+    
+    .hero-imagen{
+        position: absolute;
+        width:100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero{
+        height: 775px;
+    }
+
+    .hero-contenido{
+        top: 80px;
+    }
+}
+
